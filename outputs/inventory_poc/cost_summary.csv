@@ -1,0 +1,2 @@
+status,transfer_units,purchase_units,transfer_cost_usd,purchase_cost_usd,optimized_cost_usd,purchasing_only_cost_usd,potential_savings_usd,potential_savings_pct
+Optimal,120,65,968,2285.4999999999995,3253.4999999999995,6538.6,3285.100000000001,50.24164194170007

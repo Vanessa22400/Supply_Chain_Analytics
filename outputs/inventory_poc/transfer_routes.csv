@@ -1,0 +1,5 @@
+origin,destination,cost_per_unit_usd,lead_time_days,eligible
+South America,Central America,10,4,True
+South America,Western Europe,28,6,True
+Northern Europe,Central America,35,6,True
+Northern Europe,Western Europe,6,3,True
