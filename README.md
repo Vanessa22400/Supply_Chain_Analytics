@@ -43,7 +43,7 @@ The analysis addresses three main questions:
 
 ### Business Problem Overview
 
-![Business Problem Overview](images/business problem overview.png)
+![Business Problem Overview](images/business_problem_overview.png)
 
 *Historical business indicators reveal delivery delays, low repeat-purchase frequency, and negative-profit transactions. The simulated inventory scenario highlights shortages and surpluses across four regional locations.*
 
