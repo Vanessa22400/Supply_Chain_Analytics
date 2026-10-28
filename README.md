@@ -7,7 +7,7 @@
 **Tools:** Python · Google Colab · Pandas · NumPy · Statsmodels · PuLP · MLflow · Matplotlib · Seaborn  
 **Methods:** EDA · Demand Forecasting · Walk-Forward Validation · Integer Linear Programming · Monte Carlo Simulation · RFM Segmentation · Profitability Analysis · LLM Response Evaluation
 
-**[Full Technical Implementation: Available Upon Request](notebook/NOTEBOOK_ACCESS.md)**
+**[Full Technical Implementation: Available Upon Request](notebook/NOTEBOOK_ACCESS.md)**  
 🇧🇷 **[Leia este projeto em português](README_PT.md)**
 
 ---
