@@ -1,58 +1,57 @@
-# Supply Chain Analytics: Demand Forecasting, Inventory Optimization & Operational Research
+Eu prefiro organizar o README desde o começo, em uma versão única e definitiva. Não porque a abertura anterior estivesse errada, mas porque agora já definimos as cinco figuras, os resultados e os três novos componentes técnicos: MLflow, POC e LLM Evaluation.
 
-*An end-to-end business analytics project combining demand forecasting, mathematical optimization, and risk simulation to support retail inventory decisions.*
+Preparei o README completo em inglês, seguindo o estilo dos exemplos que você me mostrou: explicativo, com números, interpretações, figuras ao longo do texto e uma conclusão voltada ao negócio.
 
-**Dataset:** DataCo Smart Supply Chain (Kaggle) · 180,519 order lines · 53 original variables
+README.md
 
-**Methods:** Exploratory Data Analysis · Demand Forecasting · Walk-Forward Validation · Linear Programming · Monte Carlo Simulation · RFM Segmentation · Profitability Analysis
+Versão completa para revisar e publicar no GitHub
 
-**Tools:** Python · Pandas · NumPy · Statsmodels · PuLP · MLflow · Matplotlib · Seaborn · Google Colab
+Baixar README completo
 
----
+## Como organizei o README
 
-## Key Results
+| Parte                    | O que vamos apresentar                                 |
+| ------------------------ | ------------------------------------------------------ |
+| Key Results              | Tabela com os seis principais resultados               |
+| Business Context         | Problemas de negócio + primeira figura                 |
+| Dataset & Workflow       | Dados, metodologia e processo                          |
+| Business Diagnosis       | Principais problemas observados                        |
+| Demand Forecasting       | Comparação dos modelos + dois gráficos                 |
+| Inventory Optimization   | Simulação, custos, transferências e POC                |
+| Monte Carlo              | Risco de falta de estoque                              |
+| Customer Retention       | RFM + gráfico dos segmentos                            |
+| Financial Leakage        | Perdas, categorias e descontos                         |
+| Project Results          | Nosso dashboard colorido de seis cartões               |
+| Business Recommendations | Três recomendações priorizadas                         |
+| Technical Deliverables   | MLflow, POC e LLM Evaluation                           |
+| Final Sections           | Limitações, próximos passos e estrutura do repositório |
 
-| Area | Main Result | Business Insight |
-|---|---|---|
-| Demand Forecasting | **7.4% WAPE** | Product-level model selection improved on the 9.9% Naive benchmark |
-| Inventory Optimization | **50.2% potential savings** | Simulated replenishment costs decreased from $6,538.60 to $3,253.50 |
-| Inventory Allocation | **120 transfers + 65 purchases** | Replenishment plan addressing 185 simulated shortage units |
-| Risk Analysis | **91.3% of scenarios with shortages** | Demand uncertainty creates exposure to emergency replenishment |
-| Customer Retention | **77.1% of revenue** | Champions and At-Risk High Value customers account for most completed-order revenue |
-| Financial Leakage | **$1.26M in gross losses** | 18.6% of completed-order lines generated negative profit |
+Mantive um detalhe importante: a primeira figura aparece junto dos problemas de negócio, e a segunda perto das recomendações finais. Assim, o README conta uma história, em vez de simplesmente apresentar imagens.
 
-*Inventory levels, replenishment costs, and optimization savings are simulated. Customer and profitability findings are based on historical transactions. Forecasting performance was evaluated on the same period used for model selection.*
+## As cinco figuras já estão referenciadas
 
----
+Usei exatamente os nomes que combinamos:
 
-## Business Context
+Images/business_problem_overview\.png
 
-Retail supply chains must balance product availability, replenishment costs, and uncertain demand across different markets.
+Images/weekly_product_demand.png
 
-When some locations face shortages while others have excess stock, purchasing additional inventory is not always the most efficient solution. Redistributing existing inventory may reduce costs, but transportation expenses, lead times, and demand uncertainty must also be considered.
+Images/actual_vs_forecast.png
 
-This project uses historical DataCo transactions to investigate these challenges and develop a simulated inventory optimization scenario.
+Images/rfm_segments.png
 
-### Business Problems
+Images/project_results_dashboard.png
 
-The analysis addresses three main questions:
+Se os arquivos estiverem na pasta `Images` do repositório, com esses nomes exatos, o GitHub vai exibi-los automaticamente. Atenção apenas às maiúsculas e minúsculas: `Images` e `images` são caminhos diferentes.
 
-1. **Inventory Planning:** How can stock be allocated more efficiently while minimizing replenishment costs?
-2. **Customer Retention:** Which customer segments should be prioritized for loyalty and re-engagement?
-3. **Financial Leakage:** Where are negative-profit transactions concentrated, and what opportunities should be investigated?
+## Alguns cuidados que já apliquei
 
-### Business Problem Overview
+- Não apresentei os 50,2% de economia como economia real da empresa.
+- Expliquei que o 7,4% WAPE pode ser otimista porque a seleção dos modelos utilizou o mesmo período da avaliação.
+- Mantive os resultados de clientes e rentabilidade separados das simulações de estoque.
+- Dei destaque à POC e ao MLflow sem deixar que eles ocupassem mais espaço do que as análises principais.
+- Incluí o link para o arquivo separado de LLM Evaluation.
 
-![Business Problem Overview](images/business_problem_overview.png)
+A estrutura de pastas no final do arquivo é a nossa organização proposta para o GitHub. Quando publicarmos, basta conferir o nome real do notebook e posicionar os CSVs nos diretórios indicados. Também vamos preparar o `requirements.txt`.
 
-*Historical business indicators reveal delivery delays, low repeat-purchase frequency, and negative-profit transactions. The simulated inventory scenario highlights shortages and surpluses across four regional locations.*
-
----
-
-## Analytical Workflow
-
-The project follows a practical decision-making process:
-
-**Data Preparation → Business Diagnosis → Demand Forecasting → Inventory Optimization → Risk Analysis → Customer & Profitability Insights → Business Recommendations**
-
-The main analysis focuses on inventory planning, while customer retention and financial leakage provide complementary business perspectives.
+Minha sugestão é você abrir o README que preparei e conferir o estilo geral. Se estiver alinhado com o que você gosta, podemos fazer uma última revisão de apresentação e depois organizar os arquivos no GitHub. Não precisamos recomeçar o texto outra vez.
