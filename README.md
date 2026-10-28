@@ -38,7 +38,7 @@ Using the DataCo Smart Supply Chain dataset, this project examines how analytica
 
 ### Business Problem Overview
 
-![Business Problem Overview](Images/business_problem_overview.png)
+![Business Problem Overview](images/business_problem_overview.png)
 
 *Historical observations show 57.3% late-delivery order lines, 55.3% one-time buyers among customers with completed orders, and 18.6% negative-profit completed-order lines. The forecasting benchmark and inventory imbalance are modeling inputs, not observed warehouse performance.*
 
@@ -85,7 +85,7 @@ Five high-volume products were modeled using **143 complete weeks** of sales his
 
 ### Historical Product Demand
 
-![Weekly Product Demand](Images/weekly_product_demand.png)
+![Weekly Product Demand](images/weekly_product_demand.png)
 
 *Weekly sales histories were aggregated at product level to avoid treating uneven regional coverage as changes in demand.*
 
@@ -100,7 +100,7 @@ Five high-volume products were modeled using **143 complete weeks** of sales his
 
 SES performed best for four products, while MA4 performed best for O'Brien Life Vest. The selected approach combined the best-performing method for each product.
 
-![Actual vs Forecast Demand](Images/actual_vs_forecast.png)
+![Actual vs Forecast Demand](images/actual_vs_forecast.png)
 
 *Actual and predicted weekly demand during the 20-week evaluation window. Sudden fluctuations remain challenging even when the overall error is relatively low.*
 
@@ -168,7 +168,7 @@ RFM segmentation used **21,716 completed orders** from **12,523 customers**, bas
 - **At-Risk High Value:** 27.3% of customers, generating **41.1%** of completed-order revenue.
 - Together, the two segments contributed **77.1%** of revenue.
 
-![RFM Customer Segmentation](Images/rfm_segments.png)
+![RFM Customer Segmentation](images/rfm_segments.png)
 
 *Customer share versus revenue share by RFM segment. The "At-Risk" label describes historical recency, not verified churn.*
 
@@ -188,7 +188,7 @@ Higher discount bands were associated with slightly higher negative-profit rates
 
 ## Project Results Overview
 
-![Project Results Dashboard](Images/project_results_dashboard.png)
+![Project Results Dashboard](images/project_results_dashboard.png)
 
 *Executive visual summary of forecast accuracy, simulated replenishment savings, inventory redistribution, demand uncertainty, customer revenue concentration, and observed profitability losses.*
 
