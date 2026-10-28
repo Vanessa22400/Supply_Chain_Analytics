@@ -3,9 +3,11 @@
 *An end-to-end business analytics case study combining demand forecasting, mathematical optimization, and risk analysis to support retail inventory decisions.*
 
 **Author:** Vanessa Donato  
-**Dataset:** DataCo Smart Supply Chain (Kaggle) · 180,519 order lines · 53 original columns  
+**Data:** 180,519 order lines · 53 original columns  
 **Tools:** Python · Google Colab · Pandas · NumPy · Statsmodels · PuLP · MLflow · Matplotlib · Seaborn  
-**Methods:** EDA · Walk-Forward Forecasting · Integer Linear Programming · Monte Carlo Simulation · RFM Segmentation · Profitability Analysis · LLM Response Evaluation
+**Methods:** EDA · Demand Forecasting · Walk-Forward Validation · Integer Linear Programming · Monte Carlo Simulation · RFM Segmentation · Profitability Analysis · LLM Response Evaluation
+
+📓 **[Full Technical Implementation: Available Upon Request](notebook/NOTEBOOK_ACCESS.md)**
 
 ---
 
