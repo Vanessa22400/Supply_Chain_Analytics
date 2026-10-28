@@ -244,9 +244,9 @@ See [LLM Evaluation Case](llm_evaluation/llm_evaluation_case.md) for the prompt,
 ```text
 supply-chain-analytics/
 ├── README.md
-├── notebooks/
+├── notebook/
 │   └── supply_chain_analysis.ipynb
-├── Images/
+├── images/
 │   ├── business_problem_overview.png
 │   ├── weekly_product_demand.png
 │   ├── actual_vs_forecast.png
