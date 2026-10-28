@@ -7,7 +7,8 @@
 **Tools:** Python · Google Colab · Pandas · NumPy · Statsmodels · PuLP · MLflow · Matplotlib · Seaborn  
 **Methods:** EDA · Demand Forecasting · Walk-Forward Validation · Integer Linear Programming · Monte Carlo Simulation · RFM Segmentation · Profitability Analysis · LLM Response Evaluation
 
-📓 **[Full Technical Implementation: Available Upon Request](notebook/NOTEBOOK_ACCESS.md)**
+**[Full Technical Implementation: Available Upon Request](notebook/NOTEBOOK_ACCESS.md)**
+🇧🇷 **[Leia este projeto em português](README_PT.md)**
 
 ---
 
@@ -281,8 +282,4 @@ The inventory POC outputs and the MLflow experiment summary are included as refe
 The project combines forecasting, optimization, simulation, customer segmentation, and financial analysis to connect analytical findings with business decisions. The inventory POC demonstrates **potential cost savings under a clearly defined simulated scenario**, while the historical customer and profitability analyses identify additional areas for investigation.
 
 Beyond the analytical results, MLflow tracking, reusable optimization outputs, and structured LLM response evaluation provide practical examples of transparent and reproducible analytical work.
-
----
-
-🇧🇷 **[Leia este projeto em português](README_PT.md)**
 
