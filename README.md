@@ -282,3 +282,7 @@ The project combines forecasting, optimization, simulation, customer segmentatio
 
 Beyond the analytical results, MLflow tracking, reusable optimization outputs, and structured LLM response evaluation provide practical examples of transparent and reproducible analytical work.
 
+---
+
+🇧🇷 **[Leia este projeto em português](README_PT.md)**
+
